@@ -47,7 +47,7 @@ class PivotTable extends Component {
 
 
     return (
-      <table className="App">
+      <table className="table table-striped table-bordered">
         <thead>
           {React.cloneElement(headerTemplateElement, { level })}
         </thead>

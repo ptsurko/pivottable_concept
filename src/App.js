@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { PivotTable, PivotTableHeader, PivotTableHeaderTemplate, PivotTableHeaderCell, PivotTableRowTemplate, PivotTableRow, PivotTableRowCell } from './PivotTable';
+import './App.css';
 
 const DATA = [
   {
